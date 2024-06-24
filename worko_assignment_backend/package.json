@@ -1,0 +1,31 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "i work, you twerk",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node config/index.js",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
+  },
+  "author": "KVK Siddartha",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "mysql2": "^3.10.1",
+    "node-mocks-http": "^1.15.0",
+    "webpack": "^5.92.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^4.10.0",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
